@@ -1,0 +1,64 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.background1 {
+    /* 尚未给高度 */
+}
+body {
+    /*background-color: #F1F3F6;*/
+    background: url(../../static/img/樱之城.jpg) no-repeat fixed;
+    background-size: 100%;
+}
+header {
+    background-color: #FFFFFF;
+    height: 75px;
+}
+.background1 .top {
+    height: 75px;
+    border-bottom: 1px solid rgba(123,123,123,.1);
+}
+.background1 header .top .logo {
+    float: left;
+    width: 86px;
+    height: 75px;
+}
+.background1 header .top .logo a {
+    display: block;
+    width: 86px;
+    height: 75px;
+    overflow: hidden;
+    background: url(../../static/img/logo/logo.png) no-repeat 0 -20px;
+    background-size: 150%;
+    text-indent: -364px;
+}
+.background1 header .top .hello_world {
+    float: left;
+    height: 75px;
+    line-height: 75px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2c3e50;
+}
+.background1 header .top .topTool {
+    float: right;
+    height: 75px;
+}
+.background1 header .top .topTool li {
+    float: left;
+}   
+.background1 header .top .topTool a {
+    display: block;
+    padding: 0 36px;
+    margin: 17px 5px 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #03b4f4;
+    border-radius: 20px;
+    color: #F9FDFF;
+    font-size: 17px;
+    font-weight: 530;
+}
+.background1 header .top .topTool a:hover {
+    background-color: #15BAF8;
+}

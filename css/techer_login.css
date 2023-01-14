@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../icomoon/fonts/icomoon.eot?mpop9a');
+    src: url('../icomoon/fonts/icomoon.eot?mpop9a#iefix') format('embedded-opentype'),
+        url('../icomoon/fonts/icomoon.ttf?mpop9a') format('truetype'),
+        url('../icomoon/fonts/icomoon.woff?mpop9a') format('woff'),
+        url('../icomoon/fonts/icomoon.svg?mpop9a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #F1F3F6;
+    height: 1000px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 77px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(123, 123, 123, .1);
+    z-index: 10000;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 75px;
+}
+
+header .top .logo {
+    float: left;
+    width: 86px;
+    height: 75px;
+}
+
+header .top .logo a {
+    display: block;
+    width: 86px;
+    height: 75px;
+    overflow: hidden;
+    background: url(../images/logo.png) no-repeat 0 5px;
+    background-size: 100%;
+    text-indent: -364px;
+}
+
+header .top .hello_world {
+    float: left;
+    height: 75px;
+    line-height: 75px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+header .top .topTool {
+    float: right;
+    height: 75px;
+}
+
+header .top .topTool li {
+    float: left;
+}
+
+header .top .topTool a {
+    display: block;
+    padding: 0 36px;
+    margin: 17px 5px 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #03b4f4;
+    border-radius: 20px;
+    color: #F9FDFF;
+    font-size: 17px;
+    font-weight: 530;
+}
+
+header .top .topTool a:hover {
+    background-color: #15BAF8;
+}
+
+.login_area {
+    margin: 150px auto 0;
+    padding: 47px 35px;
+    width: 538px;
+    height: 484px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2px 1px rgba(123, 123, 123, .1);
+}
+
+.login_area .login_hd {
+    position: relative;
+    width: 481px;
+}
+
+.login_area .logo {
+    float: left;
+    margin-bottom: 9px;
+    width: 86px;
+    height: 75px;
+}
+
+.login_area .logo img {
+    width: 100%;
+}
+
+.login_area i {
+    position: absolute;
+    top: 10px;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.login_area .login_bd {
+    margin-bottom: 5px;
+}
+
+.login_area .login_bd form {
+    padding: 25px 0;
+    width: 481px;
+    height: 295px;
+    border-top: 2px solid #DBDBDB;
+    border-bottom: 2px solid #DBDBDB;
+}
+
+.login_area .login_bd .login_form ul li {
+    margin-bottom: 17px;
+}
+
+.login_area .login_bd .login_form label {
+    height: 30px;
+    line-height: 30px;
+    font-family: 'icomoon';
+    font-weight: 700;
+    color: #9CA3AF;
+    font-size: 16px;
+}
+
+.login_area .login_bd .login_form .inp {
+    padding: 0 10px;
+    width: 481px;
+    height: 36px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2)
+}
+
+.login_area .login_bd .login_form input[type="checkbox"] {
+    margin-left: 9px;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login_area .login_bd .login_form em {
+    color: #0A0A0A;
+    font-size: 1em;
+    line-height: calc(1em + 2px);
+}
+
+.login_area .login_bd .login_form button {
+    position: relative;
+    font-family: 'icomoon';
+    font-size: 16px;
+    height: 41px;
+    width: 481px;
+    background-color: #10B981;
+    border-radius: 4px;
+    line-height: 41px;
+    color: white;
+}
+
+.icon1 {
+    top: 3px;
+    left: 195px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}

@@ -1,0 +1,166 @@
+.login_area-fa {
+    margin: 150px auto 0;
+    width: 1076px;
+}
+
+.login_area {
+    float: left;
+    padding: 47px 35px;
+    width: 538px;
+    height: 484px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2px 1px rgba(123, 123, 123, .1);
+}
+
+.login_area .login_hd {
+    position: relative;
+    width: 481px;
+}
+
+.login_area .logo {
+    float: left;
+    margin-bottom: 9px;
+    width: 86px;
+    height: 75px;
+}
+
+.login_area .logo img {
+    width: 150%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.login_area i {
+    position: absolute;
+    top: 10px;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.login_area .login_bd {
+    margin-bottom: 5px;
+}
+
+.login_area .login_bd form {
+    padding: 25px 0;
+    width: 481px;
+    height: 295px;
+    border-top: 2px solid #DBDBDB;
+    border-bottom: 2px solid #DBDBDB;
+}
+
+.login_area .login_bd .login_form ul li {
+    margin-bottom: 17px;
+}
+
+.login_area .login_bd .login_form label {
+    height: 30px;
+    line-height: 30px;
+    font-family: 'icomoon';
+    font-weight: 700;
+    color: #9CA3AF;
+    font-size: 16px;
+}
+
+.login_area .login_bd .login_form .inp {
+    padding: 0 10px;
+    width: 481px;
+    height: 36px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2)
+}
+
+.login_area .login_bd .login_form input[type="checkbox"] {
+    margin-left: 9px;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login_area .login_bd .login_form em {
+    color: #0A0A0A;
+    font-size: 1em;
+    line-height: calc(1em + 2px);
+}
+
+.login_area .login_bd .login_form button {
+    position: relative;
+    font-family: 'icomoon';
+    font-size: 16px;
+    height: 41px;
+    width: 481px;
+    background-color: #10B981;
+    border-radius: 4px;
+    line-height: 41px;
+    color: white;
+}
+
+.icon1 {
+    top: 3px;
+    left: 195px;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+
+.wrong_login {
+    /* 两个block，是不晓得后端怎么让它显示，万一显示不是block方式，height就用不了，影响美观 */
+    display: none;
+    margin-bottom: -15px;
+    color: #ff3860;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+
+/* 右半框 */
+
+.login_area-sibling {
+    position: relative;
+    float: left;
+    width: 538px;
+    height: 484px;
+    background: url("../../static/img/章北海.webp") no-repeat scroll -150px 0;
+    background-size: 161%;
+}
+
+.mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, transparent, #fff);
+}
+
+.login_area-sibling>h4 {
+    position: relative;
+    top: 35%;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 99;
+}
+
+.login_area-sibling>p {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: black;
+}
+
+.login_area-sibling>button {
+    position: relative;
+    top: 45%;
+    left: 40%;
+    padding: 10px 35px;
+    border-radius: 19px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.number-error {
+    color: red!important;
+}

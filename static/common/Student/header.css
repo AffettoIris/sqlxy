@@ -1,0 +1,98 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    /*background-color: #F7F8FA;*/
+    background: url("../../img/樱之城.jpg") no-repeat fixed;
+    background-size: 100%;
+}
+header {
+    /* background-color: #FFFFFF; */
+    background-color: white;
+    height: 75px;
+    border-bottom: 1px solid rgba(123,123,123,.1);
+}
+header .home_top {
+    position: relative;
+}
+
+header .home_top .logo {
+    float: left;
+    width: 86px;
+    height: 75px;
+}
+
+header .home_top .logo a {
+    display: block;
+    width: 86px;
+    height: 75px;
+    overflow: hidden;
+    /* 无语死了，这个url的路径要从本文件的角度考虑，而html里的a的href要从引用者角度考虑 */
+    background: url(../../img/logo/logo.png) no-repeat 0 -13px;
+    background-size: 132%;
+    text-indent: -364px;
+}
+
+header .home_top .SQL {
+    display: block;
+    float: left;
+    height: 75px;
+    line-height: 75px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+header ul {
+    float: left;
+    margin-left: 10px;
+}
+
+header ul li {
+    float: left;
+    margin: 0 10px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+header ul li a {
+    display: block;
+    height: 100%;
+    line-height: 75px;
+    width: auto;
+    cursor: pointer;
+    font-size: 16px;
+    color: #262626;
+}
+.header_service {
+    float: right;
+}
+.changepwd,
+.goToLogin,
+.welcomeYou {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 22px;
+    margin-right: 20px;
+    color: #D93E3B;
+    border: 1px solid #D93E3B;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+}
+.welcomeYou {
+    color: #FDA116;
+    border-color: #FDA116;
+}
+.welcomeYou:hover {
+    color: #FDA116;
+    cursor: default;
+}
+header .changepwd:hover,
+header .goToLogin:hover {
+    background-color: #E9E9ED;
+}

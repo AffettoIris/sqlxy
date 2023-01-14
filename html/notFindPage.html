@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生 - 登录</title>
+    <meta name="description" content="数据库原理实验评判系统-在线评判和打分，提供成绩分析功能，节省教师时间成本和工作量">
+    <meta name="keywords" content="数据库课程，实验，打分，成绩，统计">
+    <link rel="shortcut icon" href="../static/images/logo.ico">
+    <link rel="stylesheet" href="../static/css/css初始化代码.css">
+    <style>
+        .w {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        body {
+            background-color: #F4F4F6;
+        }
+
+        section {
+            margin-top: 10vh !important;
+            height: 80vh;
+            width: 100%;
+            background-color: #FEFEFE;
+            border-radius: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        img {
+            align-items: center;
+            margin-top: 15vh;
+        }
+
+        p {
+            font-size: 16px;
+            color: rgb(123, 123, 123);
+        }
+
+        a {
+            display: inline-block;
+            line-height: 40px;
+            margin-top: 30px;
+            padding: 0 20px;
+            background-color: #01A1DA;
+            color: white;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: .2s;
+        }
+
+        a:hover {
+            color: white;
+            filter: brightness(1.2);
+        }
+    </style>
+    <script>
+        window.addEventListener('load', function () {
+            var goBack = document.querySelector('a');
+            goBack.addEventListener('click', function () {
+                history.back();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <section class="w">
+        <img src="../static/images/notFindPage.png" alt="">
+        <br>
+        <p>抱歉！我们找不到您想访问的页面...</p>
+        <a href="javascript:;">返回上一页</a>
+    </section>
+</body>
+
+</html>

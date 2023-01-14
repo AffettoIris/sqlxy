@@ -1,0 +1,23 @@
+/* 查看成绩 */
+.view_grades {
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    padding: 1px 25px 10px;
+}
+.grades_set {
+    color: #E6E9EC;
+    margin: 38px 0 20px;
+    font-size: 16px;
+}
+.grades_set li {
+    height: 55px;
+    line-height: 35px;
+    padding: 10px 27px;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+.grades_set li span {
+    display: inline-block;
+    width: 210px;
+}

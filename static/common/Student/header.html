@@ -1,0 +1,22 @@
+<!-- 头部 -->
+<header style="background-color: rgba(256, 256, 256, 0.5);">
+    <div class="home_top w clearfix">
+        <div class="logo">
+            <h1>
+                <a href="home.php" title="数据库原理实验评判系统">数据库原理实验评判系统</a>
+            </h1>
+        </div>
+        <span class="SQL">SQLXY</span>
+        <ul>
+            <li><a href="home.php">首页</a></li>
+            <li><a href="practiceCenter.php" class="lianxizhongxin">练习中心</a></li>
+            <li><a href="myGrades.php" class="wodechengji">我的成绩</a></li>
+            <li><a href="collectedQuestions.php">收藏·错题集</a></li>
+        </ul>
+        <div class="header_service">
+            <a href="javascript:;" class="welcomeYou">welcome <i><?php echo $_SESSION['studentNumber']; ?></i></a>
+            <a href="changeInfo.php" class="changepwd">设置</a>
+            <a href="../../index.html" class="goToLogin">退出登录</a>
+        </div>
+    </div>
+</header>

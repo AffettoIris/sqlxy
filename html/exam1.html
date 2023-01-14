@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../static/images/logo.ico">
+    <link rel="stylesheet" href="../static/css/css初始化代码.css">
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/exam1.css">
+    <script src="../static/javascript/exam1.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="home_top w clearfix">
+            <div class="logo">
+                <h1>
+                    <a href="Student/home.php" title="数据库原理实验评判系统">数据库原理实验评判系统</a>
+                </h1>
+            </div>
+            <span class="SQL">SQL</span>
+            <ul>
+                <li><a href="Student/home.php">首页</a></li>
+                <li><a href="Student/practiceCenter.php" class="lianxizhongxin">练习中心</a></li>
+                <li><a href="Student/myGrades.php" class="wodechengji">我的成绩</a></li>
+                <li><a href="Student/collectedQuestions.php">收藏·错题集</a></li>
+            </ul>
+            <div class="header_service">
+                <a href="javascript:;" class="welcomeYou">welcome <i>学号</i></a>
+                <a href="Student/changeInfo.php" class="changepwd">账号设置</a>
+                <a href="../index.html" class="goToLogin">退出登录</a>
+            </div>
+        </div>
+    </header>
+    <!-- 练习中心,分左（第几题）右（第N题详情） -->
+    <div class="exam_main w clearfix">
+        <div class="dijiti">
+            <!-- 题数 -->
+            <ul class="tishu">
+                <li class="current_exam">第<i>1</i>题</li>
+                <li>第<i>2</i>题</li>
+                <li>第<i>3</i>题</li>
+            </ul>
+        </div>
+        <div class="exam_content" id="exam_content">
+            <!-- exam_content的每一个儿子一次装一题，点击左侧栏显示对应第几题 -->
+            <div>
+                <!-- 分四部分，题目、初始化、SQL执行、执行结果 -->
+                <div class="exercise_topic">
+                    <h1>第1题：获取班级内的学生</h1>
+                    <p>根据以下表结构，关联teacher表与student表，获取张老师的所有学生学号和姓名 <br>
+                        提示：根据 teacher_id 进行关联，并且需要的是学生的学号和姓名哦！</p>
+                </div>
+                <div class="init_exercise">
+                    <!-- 第一个表 -->
+                    <p>temp_teacher</p>
+                    <table>
+                        <tr>
+                            <th>id</th>
+                            <th>teacher_name</th>
+                            <th>treacher_type</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>张老师</td>
+                            <td>数学</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>王老师</td>
+                            <td>语文</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>李老师</td>
+                            <td>英语</td>
+                        </tr>
+                    </table>
+                    <!-- 第二个表 -->
+                    <p>temp_student</p>
+                    <table>
+                        <tr>
+                            <th>id</th>
+                            <th>student_no</th>
+                            <th>student_name</th>
+                            <th>teacher_id</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>10001</td>
+                            <td>小A</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>10001</td>
+                            <td>小<A></A></td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10001</td>
+                            <td>小B</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>10001</td>
+                            <td>小C</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>10001</td>
+                            <td>小D</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>10001</td>
+                            <td>小E</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>10001</td>
+                            <td>小A</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>10001</td>
+                            <td>小B</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>10001</td>
+                            <td>小C</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="implement_SQL clearfix">
+                    <p>SQL执行</p>
+                    <div class="daima_box clearfix">
+                        <textarea name="receive_code" id="" cols="30" rows="10"></textarea>
+                        <button class="zhixingBtn">执行</button>
+                    </div>
+                </div>
+                <!-- 感觉显示报错信息比较麻烦，现统一将执行结果显示在下面的栏里 -->
+                <div class="implement_result">
+                    <p>执行结果</p>
+                    <div class="result_content">
+                        <!-- 我想让执行结果框，没有内容时有默认高度，有内容时随内容自动适应高度 -->
+                        <!-- 想不出来，姑且用换行产生高度吧 -->
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <!-- 分四部分，题目、初始化、SQL执行、执行结果 -->
+                <div class="exercise_topic">
+                    <h1>测试2</h1>
+                    <p>测试2</p>
+                </div>
+                <div class="init_exercise">
+                    测试2
+                </div>
+                <div class="implement_SQL clearfix">
+                    <p>SQL执行</p>
+                    <div class="daima_box clearfix">
+                        <textarea name="receive_code" id="" cols="30" rows="10"></textarea>
+                        <button class="zhixingBtn">执行</button>
+                    </div>
+                </div>
+                <!-- 感觉显示报错信息比较麻烦，现统一将执行结果显示在下面的栏里 -->
+                <div class="implement_result">
+                    <p>执行结果</p>
+                    <div class="result_content">
+                        <!-- 我想让执行结果框，没有内容时有默认高度，有内容时随内容自动适应高度 -->
+                        <!-- 想不出来，姑且用换行产生高度吧 -->
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <!-- 分四部分，题目、初始化、SQL执行、执行结果 -->
+                <div class="exercise_topic">
+                    <h1>demo3</h1>
+                    <p>demo3</p>
+                </div>
+                <div class="init_exercise">
+                    demo3
+                </div>
+                <div class="implement_SQL clearfix">
+                    <p>SQL执行</p>
+                    <div class="daima_box clearfix">
+                        <textarea name="receive_code" id="" cols="30" rows="10"></textarea>
+                        <button name="zhixingBtn" class="zhixingBtn">执行</button>
+                    </div>
+                </div>
+                <!-- 感觉显示报错信息比较麻烦，现统一将执行结果显示在下面的栏里 -->
+                <div class="implement_result">
+                    <p>执行结果</p>
+                    <div class="result_content">
+                        <!-- 我想让执行结果框，没有内容时有默认高度，有内容时随内容自动适应高度 -->
+                        <!-- 想不出来，姑且用换行产生高度吧 -->
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

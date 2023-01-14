@@ -1,0 +1,205 @@
+/* 第一眼看到的页面 */
+.questionsManageMain {
+    background-color: #1D1D1D;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 30px 20px;
+}
+
+.jiahao {
+    display: block;
+    padding: 5px 10px;
+    background-color: #1D1D1D;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+.jiahao:hover {
+    /* opacity: 0.5; */
+    background-color: gray;
+}
+
+.q_table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+}
+
+.q_table tr {
+    border-bottom: 1px solid rgb(123, 123, 123);
+    height: 48px;
+    line-height: 48px;
+}
+
+.q_table button {
+    background-color: #1D1D1D;
+    color: white;
+}
+
+/* 翻页按钮 */
+.fanye_fa {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.fanye {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    background-color: #1976D2;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* 定义遮罩 */
+.mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(123, 123, 123, 0.3);
+    z-index: 998;
+}
+
+.question_info_fa {
+    padding: 33px;
+    margin-top: 13vh;
+    height: 75vh;
+    background-color: #1D1D1D;
+    border-radius: 5px;
+    color: white;
+}
+
+/* 遮左盒子 */
+.question_info_left {
+    float: left;
+    width: 165px;
+    height: calc(75vh - 66px);
+    border-right: 1px solid rgba(123, 123, 123, 0.5);
+}
+
+/* 弄左边布局的内部详细设计 */
+.question_info_left li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #C8C8C8;
+}
+
+/* question_info_current，第N个li右边出现小竖线，其他无之 */
+/* 刚加载进来默认第一li正在做,question_info_current */
+.question_info_current {
+    border-right: 3px solid #C8C8C8;
+    padding-left: 2.4px;
+}
+
+/* 右盒子 */
+.question_info_right {
+    float: left;
+    padding: 10px 20px;
+    width: 969px;
+    height: calc(75vh - 66px);
+    overflow: auto;
+}
+
+/* 先注释掉 */
+.mask {
+    display: none;
+}
+
+/* 设置右盒子的具体布局 */
+.q_form {
+    color: white;
+}
+
+.q_form>div {
+    display: none;
+}
+
+.q_field__label,
+.q_detail_label,
+.q_score_label,
+.q_sort_label {
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+
+.q_field__native {
+    line-height: 24px;
+    font-size: 24px;
+    height: 36px;
+    padding: 6px 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+
+.q_detail,
+.q_init,
+.q_answer {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 30vh;
+    outline: none;
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    resize: none;
+    overflow: auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all .36s;
+}
+
+.q_score {
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+/* 表单的尾巴 */
+.tail {
+    display: block !important;
+    margin-top: 20px;
+}
+
+.tail button,
+.tail input {
+    float: right;
+    background-color: transparent;
+    padding: 0 15px;
+    margin: 0 10px;
+    line-height: 28px;
+    height: 28px;
+    color: #1A6BBC;
+    font-size: 14px;
+    line-height: 1.715em;
+    font-weight: 500;
+    border-radius: 3px;
+    transition: 0.36s;
+}
+.tail button:hover,
+.tail input:hover {
+    background-color: rgba(123, 123, 123, .3);
+}

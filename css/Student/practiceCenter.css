@@ -1,0 +1,63 @@
+/* 导航栏 */
+.practice_sort {
+    position: relative;
+    margin-top: 30px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #E6E9EC;
+    box-shadow: 0 0 4px 5px;
+}
+
+.cloud {
+    position: absolute;
+    top: 0;
+    left: 45px;
+    width: 118px;
+    height: 60px;
+    background: url(../../static/img/cloud.gif) no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+
+.practice_sort>ul {
+    position: absolute;
+    z-index: 2;
+}
+.practice_sort>ul>li {
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    padding: 0 68px;
+    font-size: 24px;
+    color: black;
+}
+/* 增删查改 */
+.crud {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1px 25px 10px;
+    box-shadow: 0 0 4px 5px rgba(123, 123, 123, .1);
+}
+.crud>ul>li {
+    display: none;
+}
+.current {
+    display: block!important;
+}
+.test_set li {
+    /* height >= padding * 2 + line-height */
+    height: 55px;
+    line-height: 35px;
+    padding: 10px 27px;
+    font-size: 19px;
+    border-bottom: 1px solid #000;
+}
+.test_set li span {
+    display: inline-block;
+    width: 260px;
+}
+.test_set li span:last-child a {
+    color: blue;
+}
