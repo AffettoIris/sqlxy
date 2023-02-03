@@ -1,0 +1,173 @@
+/* 奠定最大的盒子和其内部左右布局 */
+.exam_main {
+    position: relative;
+    width: 100vw;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #000;
+    color: #C8C8C8;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    height: calc(100vh - 75px - 20px);
+}
+
+.exercise_topic>h1 {
+    height: 50px;
+    line-height: 50px;
+}
+
+.exercise_topic>p {
+    font-size: 16px;
+}
+
+/* 设置初始化、SQL执行、执行结果的首行提示文字格式 */
+.init_exercise>p,
+.implement_SQL>p,
+.implement_result>p {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+/* SQL执行 */
+.implement_SQL {
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(123, 123, 123, 0.5);
+}
+.daima_box {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.implement_SQL textarea {
+    padding: 0px 5px;
+    resize: none;
+    overflow: auto;
+    width: 100%;
+    height: 60vh;
+    line-height: 17px;
+    background-color: #000;
+    outline: none;
+    border: 5px solid white;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.daima_box>button {
+    display: none;
+    float: right;
+    margin: 10px 5px 8px;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #45A14E;
+    border-radius: 3px;
+    filter: brightness(1.3);
+}
+/* 执行结果 */
+.implement_result .result_content {
+    padding: 5px;
+    width: 100%;border: 1px solid rgba(123, 123, 123, 0.5);
+    border-radius: 3px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.left,
+.right {
+    float: left;
+    padding: 15px;
+    width: 49vw;
+    /* 75px是导航栏高度，20px是上下外边距，20px是上下内边距，calc()里运算符需要空格隔开 */
+    height: calc(100vh - 75px - 20px - 20px);
+    overflow: auto;
+}
+
+.left {
+    border-right: 1px solid gray;
+}
+
+body {
+    height: 100vh;
+}
+
+.title,
+.description {
+    padding: 10px 10px;
+    font: 1rem/1.5 "Microsoft YaHei";
+    color:  #C8C8C8;
+}
+
+.env {
+    font: 1rem/1.5 "Microsoft YaHei";
+}
+
+.keyword {
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(246, 247, 249, .3);
+    border-radius: 4px;
+}
+
+.key-son1 {
+    float: left;
+    padding: 10px;
+    font: 1rem/1.5 "Microsoft YaHei";
+    border-right: 1px solid gray;
+}
+
+.key-son2 {
+    float: left;
+    padding: 10px;
+    font: 1rem/1.5 "Microsoft YaHei";
+}
+
+/* 这是悬浮面板右上角的关闭按钮 */
+.X {
+    position: absolute;
+    top: 3px;
+    right: 58px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    font: 16px/25px "Microsoft YaHei";
+    text-align: center;
+}
+
+.query {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    z-index: 1000;
+}
+
+.query>div {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    padding: 30px 40px;
+    display: inline-block;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px #ddd;
+    border-radius: 5px;
+    cursor: move;
+}
+
+.query h2 {
+    color: #FECEEE;
+}
+
+.query button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ffecd2, #fcb69f);
+}

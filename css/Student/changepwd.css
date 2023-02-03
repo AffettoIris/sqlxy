@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../static/icomoon/fonts/icomoon.eot?y48sug');
+    src: url('../../static/icomoon/fonts/icomoon.eot?y48sug#iefix') format('embedded-opentype'),
+        url('../../static/icomoon/fonts/icomoon.ttf?y48sug') format('truetype'),
+        url('../../static/icomoon/fonts/icomoon.woff?y48sug') format('woff'),
+        url('../../static/icomoon/fonts/icomoon.svg?y48sug#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-color: #E5E7EB;
+}
+
+.stuChangePwd {
+    position: relative;
+    margin: 100px auto 0;
+    height: 500px;
+    width: 700px;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2px 1px rgba(123, 123, 123, .1);
+}
+
+.stuChangePwd .stuChangePwd_hd {
+    height: 36px;
+    background-color: #ECECEC;
+    border-bottom: 1px solid #ccc;
+}
+
+.stuChangePwd .stuChangePwd_hd .stuChangePwd_hd_span {
+    font-family: 'icomoon';
+    color: #4A4A4A;
+    font-style: 16px;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.stuChangePwd .stuChangePwd_hd>ul {
+    height: 36px;
+    width: 260px;
+}
+
+.stuChangePwd .stuChangePwd_hd>ul>li {
+    float: left;
+    margin-right: 10px;
+    height: 36px;
+    width: 120px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.stuChangePwd .stuChangePwd_hd>ul>li:hover {
+    border-bottom: 1px solid #0DD6D0;
+}
+
+.stuChangePwd .stuChangePwd_hd>ul>li:hover .stuChangePwd_hd_span {
+    color: #0DD6D0;
+}
+
+.stuChangePwd .stuChangePwd_hd .personalInfo {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 700px;
+    height: 464px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.stuChangePwd .stuChangePwd_hd .personalInfo form,
+.stuChangePwd .stuChangePwd_hd .safety form {
+    width: 700px;
+    height: 464px;
+    padding: 19px 17px;
+}
+
+.stuChangePwd .stuChangePwd_hd .inp {
+    padding: 0 10px;
+    border: 1px solid rgba(123, 123, 123, .3);
+    height: 36px;
+    width: 533px;
+    line-height: 36px;
+    border-radius: 3px;
+}
+
+.stuChangePwd .stuChangePwd_hd .safety {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    display: none;
+    width: 700px;
+    height: 464px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.stuChangePwd .stuChangePwd_hd form ul li {
+    width: 666px;
+    line-height: 65px;
+}
+
+.stuChangePwd .stuChangePwd_hd .personalInfo form ul li:nth-child(-n+2) {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.stuChangePwd .stuChangePwd_hd .safety form ul li:nth-child(-n+4) {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.stuChangePwd .stuChangePwd_hd form label,
+.stuChangePwd .stuChangePwd_hd form li:nth-child(1) {
+    font-weight: 700;
+    font-size: .875rem;
+    color: #9CA3AF;
+}
+
+.stuChangePwd .stuChangePwd_hd form label {
+    display: inline-block;
+    width: 128px;
+    text-align: right;
+}
+
+.check_pwd {
+    display: block;
+    margin-left: 133px;
+    margin-top: -15px;
+    color: #ff3860;
+    font-size: 12px;
+    line-height: 15px;
+    height: 15px;
+}
+
+.stuChangePwd .stuChangePwd_hd input[type="submit"] {
+    width: 85px;
+    height: 40px;
+    background-color: #10B981;
+    font-size: 1rem;
+    color: #F0FBF7;
+    border-radius: 4px;
+    cursor: pointer;
+}

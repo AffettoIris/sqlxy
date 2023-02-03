@@ -44,21 +44,19 @@
     color: white;
 }
 
-/* 翻页按钮 */
-.fanye_fa {
-    margin-top: 30px;
-    justify-content: center;
-    display: flex;
+/* 翻页 */
+.fan-ye {
+    margin-top: 15px;
+    height: 24px;
+    text-align: center;
 }
 
-.fanye {
-    text-align: center;
-    font-size: 14px;
-    color: white;
-    font-weight: 500;
-    background-color: #1976D2;
-    padding: 10px;
-    border-radius: 4px;
+.fan-ye li {
+    display: inline-block;
+    margin: 0 5px;
+    height: 24px;
+    font: 16px/24px 'Microsoft YaHei';
+    color: skyblue;
 }
 
 /* 定义遮罩 */
@@ -161,7 +159,6 @@
     height: 30vh;
     outline: none;
     color: white;
-    text-decoration: underline;
     background-color: transparent;
     resize: none;
     overflow: auto;
@@ -202,4 +199,91 @@
 .tail button:hover,
 .tail input:hover {
     background-color: rgba(123, 123, 123, .3);
+}
+
+table td,
+table th{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 19.5%;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.result {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 30vh;
+    outline: none;
+    color: white;
+    resize: none;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#q_detail {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 30vh;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    resize: none;
+    overflow: auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all .36s;
+    line-height: 20px;
+    height: 50vh;
+}
+
+.q-keys {
+    width: 100%;
+}
+
+#q_answer {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    resize: none;
+    overflow: auto;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all .36s;
+    line-height: 20px;
+    height: 50vh;
+}
+
+.exec {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-image: linear-gradient(to top right, #a18cd1, #fbc2eb);
+}
+
+.deleteMsg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    background-color: rgba(51, 51, 51, .8);
+    padding: 15px;
+    color: #FFFFFF;
+    z-index: 1000;
+    font: 1rem/1.5 "Microsoft YaHei";
+    border-radius: 4px;
+    transition: 0.5s;
 }

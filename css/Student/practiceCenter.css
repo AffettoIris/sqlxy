@@ -1,3 +1,8 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* 导航栏 */
 .practice_sort {
     position: relative;
@@ -32,32 +37,70 @@
     font-size: 24px;
     color: black;
 }
-/* 增删查改 */
-.crud {
-    margin-top: 30px;
-    background-color: #fff;
+
+.q_table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+}
+
+.questionsManageMain {
+    background-color: #1D1D1D;
     border-radius: 5px;
-    padding: 1px 25px 10px;
-    box-shadow: 0 0 4px 5px rgba(123, 123, 123, .1);
+    margin-top: 30px;
+    padding: 30px 20px;
 }
-.crud>ul>li {
-    display: none;
-}
-.current {
-    display: block!important;
-}
-.test_set li {
-    /* height >= padding * 2 + line-height */
-    height: 55px;
-    line-height: 35px;
-    padding: 10px 27px;
-    font-size: 19px;
-    border-bottom: 1px solid #000;
-}
-.test_set li span {
+
+table td, table th {
     display: inline-block;
-    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20%;
 }
-.test_set li span:last-child a {
-    color: blue;
+
+
+element.style {
+}
+table td, table th {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 19.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.q_table tr {
+    border-bottom: 1px solid rgb(123, 123, 123);
+    height: 48px;
+    line-height: 48px;
+}
+
+/* 翻页 */
+.fan-ye {
+    margin-top: 15px;
+    height: 24px;
+    text-align: center;
+}
+
+.fan-ye li {
+    display: inline-block;
+    margin: 0 5px;
+    height: 24px;
+    font: 16px/24px 'Microsoft YaHei';
+    color: skyblue;
 }
