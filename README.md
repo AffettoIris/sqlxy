@@ -36,14 +36,14 @@
 5. 2023-01-11至2023-01-31，基本完成剩余页面，包括老师发布题目、修改题目、管理学生账号等功能；包括学生获取题目、学生在线答题、机器评判学生的答案是对或错、学生考后查看答题情况等功能。
 
 #### 软件架构
-<img src="./static/img/README.md/1.png" alt="image-20230204024310726" style="zoom: 67%;" />
+
 ##### 系统功能模块图
 
-<img src="./../images/README/image-20230204024310726.png" alt="image-20230204024310726" style="zoom: 67%;" />
+<img src="./static/img/README.md/1.png" alt="image-20230204024310726" style="zoom: 67%;" />
 
 ##### 系统的层次方框图
 
-<img src="./../images/README/image-20230204024656828.png" alt="image-20230204024656828" style="zoom:80%;" />
+<img src="./static/img/README.md/2.png" alt="image-20230204024656828" style="zoom:80%;" />
 
 #### 安装教程
 
@@ -58,43 +58,43 @@
 
    ##### 学生端
 
-2. 自行注册学生账号并登录：<img src="./../images/README/image-20230204025725675.png" alt="image-20230204025725675" style="zoom:50%;" />
+2. 自行注册学生账号并登录：<img src="./static/img/README.md/3.png" alt="image-20230204025725675" style="zoom:50%;" />
 
 3. 在练习中心页面，学生可查看题目简介，点击题目即可答题。在答题页面您可输入答案，然后点击执行或提交按钮。
 
-   ![image-20230204025926059](./../images/README/image-20230204025926059.png)
+   ![image-20230204025926059](./static/img/README.md/4.png)
 
-   ![image-20230204025950636](./../images/README/image-20230204025950636.png)
+   ![image-20230204025950636](./static/img/README.md/5.png)
 
 4. 在我的成绩页面学生可查看成绩，点击题目可以查看正确答案、答案历史记录、重新作答。
 
-   ![image-20230204030422315](./../images/README/image-20230204030422315.png)
+   ![image-20230204030422315](./static/img/README.md/6.png)
 
-   ![image-20230204030412019](./../images/README/image-20230204030412019.png)
+   ![image-20230204030412019](./static/img/README.md/7.png)
 
 5. 设置页面，学生可自行修改账号绑定的姓名和密码。
 
-   ![image-20230204030512449](./../images/README/image-20230204030512449.png)
+   ![image-20230204030512449](./static/img/README.md/8.png)
 
-   ![image-20230204030539965](./../images/README/image-20230204030539965.png)
+   ![image-20230204030539965](./static/img/README.md/9.png)
 
    ##### 教师端
 
 6. 在用户管理页面，教师可帮助学生更改账号的姓名或密码。
 
-   ![image-20230204031152612](./../images/README/image-20230204031152612.png)
+   ![image-20230204031152612](./static/img/README.md/10.png)
 
 7. 在发布题目页面，教师可发布和查看题目
 
-   ![image-20230204030858129](./../images/README/image-20230204030858129.png)
+   ![image-20230204030858129](./static/img/README.md/11.png)
 
 8. 在题目管理页面，对于已经有学生做过的题目，为防止教师修改题目答案引起麻烦，仅支持教师查看题目；对于尚无学生答过题的练习，教师可编辑题目详情。
 
-   ![image-20230204031123750](./../images/README/image-20230204031123750.png)
+   ![image-20230204031123750](./static/img/README.md/12.png)
 
 9. 设置页面，教师亦可自行修改自己的账号绑定的用户名或密码。
 
-   ![image-20230204031228980](./../images/README/image-20230204031228980.png)
+   ![image-20230204031228980](./static/img/README.md/13.png)
 
 
 
