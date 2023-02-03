@@ -86,15 +86,15 @@
 
 7. 在发布题目页面，教师可发布和查看题目
 
-   ![image-20230204030858129](./static/img/README.md/11.png)
+   ![image-20230204030858129](./static/img/README.md/12.png)
 
 8. 在题目管理页面，对于已经有学生做过的题目，为防止教师修改题目答案引起麻烦，仅支持教师查看题目；对于尚无学生答过题的练习，教师可编辑题目详情。
 
-   ![image-20230204031123750](./static/img/README.md/12.png)
+   ![image-20230204031123750](./static/img/README.md/13.png)
 
 9. 设置页面，教师亦可自行修改自己的账号绑定的用户名或密码。
 
-   ![image-20230204031228980](./static/img/README.md/13.png)
+   ![image-20230204031228980](./static/img/README.md/15.png)
 
 
 
