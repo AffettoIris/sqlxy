@@ -109,7 +109,7 @@
   <img decoding="async" src="https://avatars.githubusercontent.com/u/103482977?v=4" width="70px">
 </a>
 <a href="https://github.com/ylfeng1">
-  <img decoding="async" src="https://avatars.githubusercontent.com/u/124415253?v=4" width="70px">
+  <img src="https://avatars.githubusercontent.com/u/124415253?v=4" width="70px">
 </a>
 </p>
 
