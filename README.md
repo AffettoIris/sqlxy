@@ -103,7 +103,10 @@
 
 <p align="center">
 <a href="https://github.com/WenTesla">
-  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" style="zoom:67%;" />
+  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" />
+</a>
+<a href="https://github.com/AfetoIris">
+  <img src="https://avatars.githubusercontent.com/u/103482977?v=4" />
 </a>
 </p>
 
