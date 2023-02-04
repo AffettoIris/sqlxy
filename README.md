@@ -102,7 +102,7 @@
 #### 参与贡献
 
 <p align="center">
-<a href="https://github.com/WenTesla" style="border-radius=50%;width=50px;overflow:hidden;">
+<a href="https://github.com/WenTesla" border-radius="50%" width="50px" overflow="hidden">
   <img src="https://avatars.githubusercontent.com/u/88094223?v=4" />
 </a>
 </p>
