@@ -102,8 +102,8 @@
 #### 参与贡献
 
 <p align="center">
-<a href="https://github.com/AfetoIris/sqlxy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=AfetoIris/sqlxy" />
+<a href="https://github.com/WenTesla">
+  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" />
 </a>
 </p>
 
