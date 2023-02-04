@@ -103,7 +103,7 @@
 
 <p align="center">
 <a href="https://github.com/WenTesla">
-  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" class="img-circle" />
+  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" style="max-width: 50%;" />
 </a>
 </p>
 
