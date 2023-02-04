@@ -104,7 +104,7 @@
 1. 2022-08~2022-09，在邢老师和不能再睡了等人的帮助下，WenTesla & AffettoIris发布了半成品的V1版本代码。
 1. 2023-01，因团队成员需要忙碌考研，后期开发由AffettoIris接管，并在指导老师和队友的帮助、建议与测试下，设计、研发并发布了Beta版的成品系统。随后历时5天完成了公测，现已成功发布正式版。
 <p align="center">
-<a href="https://github.com/swisskyrepo/PayloadsAllTheThings/graphs/contributors">
+<a href="https://github.com/AfetoIris/sqlxy/contributors">
   <img src="https://contrib.rocks/image?repo=swisskyrepo/PayloadsAllTheThings&max=36">
 </a>
 </p>
@@ -124,7 +124,3 @@
    AffettoIris的邮箱：affettoiris@yeah.net
 
    对本项目有问题或者有二创之类的想法的，可以在Github上Issues或者联系我的邮箱，谢谢！
-
-   
-
-   
