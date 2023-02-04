@@ -106,10 +106,10 @@
    <img decoding="async" src="https://avatars.githubusercontent.com/u/88094223?v=4" width="70px">
 </a>
 <a href="https://github.com/AfetoIris">
-  <img decoding="async" src="https://avatars.githubusercontent.com/u/103482977?v=4" width="70px" style="border-radius:50%">
+  <img decoding="async" src="https://avatars.githubusercontent.com/u/103482977?v=4" width="70px" style="border-radius:50%;overflow:hidden">
 </a>
 <a href="https://github.com/ylfeng1">
-  <img src="https://avatars.githubusercontent.com/u/124415253?v=4" width="70px" border-radius="50%">
+  <img src="https://avatars.githubusercontent.com/u/124415253?v=4" width="70px" border-radius="50%" overflow="hidden">
 </a>
 </p>
 
