@@ -103,12 +103,11 @@
 
 <p align="center">
 <a href="https://github.com/WenTesla">
-  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" />
+   <img decoding="async" src="https://avatars.githubusercontent.com/u/88094223?v=4" width="50%">
 </a>
 <a href="https://github.com/AfetoIris">
-  <img src="https://avatars.githubusercontent.com/u/103482977?v=4" style="zoom:67%;" />
+  <img decoding="async" src="https://avatars.githubusercontent.com/u/103482977?v=4" width="50%">
 </a>
-   <img decoding="async" src="http://static.runoob.com/images/runoob-logo.png" width="2%">
 </p>
 
 #### AffettoIris寄语
