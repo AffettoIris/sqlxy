@@ -103,10 +103,10 @@
 
 <p align="center">
 <a href="https://github.com/WenTesla">
-   <img decoding="async" src="https://avatars.githubusercontent.com/u/88094223?v=4" width="50%">
+   <img decoding="async" src="https://avatars.githubusercontent.com/u/88094223?v=4" width="50px">
 </a>
 <a href="https://github.com/AfetoIris">
-  <img decoding="async" src="https://avatars.githubusercontent.com/u/103482977?v=4" width="50%">
+  <img decoding="async" src="https://avatars.githubusercontent.com/u/103482977?v=4" width="50px">
 </a>
 </p>
 
