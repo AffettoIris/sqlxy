@@ -102,8 +102,8 @@
 #### 参与贡献
 
 <p align="center">
-<a href="https://github.com/WenTesla" border-radius="50%" width="50px" overflow="hidden">
-  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" />
+<a href="https://github.com/WenTesla">
+  <img src="https://avatars.githubusercontent.com/u/88094223?v=4" class="img-circle" />
 </a>
 </p>
 
