@@ -67,6 +67,6 @@ $pwd_error = $_COOKIE['pwd_error'] ?? '';
         </section>
     </div>
     <script src="../../static/common/js/dancing_ribbon.js"></script>
-</body>
-
-</html>
+<?php
+    include('../../static/common/php/footer.html');
+?>

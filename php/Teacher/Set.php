@@ -52,5 +52,6 @@
             <h4>自然选择号欢迎您登舰！</h4>
         </section>
     </div>
-</body>
-</html>
+<?php
+    include('../../static/common/php/footer.html');
+?>

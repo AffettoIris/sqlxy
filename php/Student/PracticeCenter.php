@@ -54,6 +54,6 @@
             <li id="endPage">尾页</li>
         </ul>
     </section> -->
-</body>
-
-</html>
+<?php
+    include('../../static/common/php/footer.html');
+?>

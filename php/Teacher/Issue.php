@@ -97,6 +97,6 @@
             </div>
         </div>
     </div>
-</body>
-
-</html>
+<?php
+    include('../../static/common/php/footer.html');
+?>

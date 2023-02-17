@@ -44,6 +44,6 @@
             </ul>
         </form>
     </section>
-</body>
-
-</html>
+<?php
+    include('../../static/common/php/footer.html');
+?>

@@ -26,12 +26,17 @@
     </style>
 </head>
 
-<body>
+<body style="height: 100vh; position: relative;">
     <!-- 在刷题页面放置账号中心，可以改密，通向changepwd.html -->
     <?php include '../../static/common/Student/header.html' ?>
 
     <!-- 雪花飘落 -->
     <canvas id="sakura" width="1707" height="811"></canvas>
     <?php include '../../static/common/js/love_snowflakes.js.html' ?>
+    <footer style="width: 1200px; transform: translateX(-50%); margin-left: 50%; position: absolute; bottom: 0; text-align: center; font-size: 16px; color: black;">
+        SQLXY Version1.1 <br>
+        <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="color: black;">sqlxy.pro 津ICP备2022007169号-1</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/AfetoIris/sqlxy" target="_blank" style="color: black;">Github仓库</a>
+    </footer>
 </body>
 </html>
