@@ -14,10 +14,10 @@
 
 ##### 技术栈
 
-前端：html5 css3 es5
-后端：php7
+前端：html5 css3 es6
+后端：php8
 数据传输：ajax json
-服务器：centos7 apache 
+服务器：centos7.6 apache 
 数据库：mysql8
 仓库：git+github
 
@@ -48,7 +48,7 @@
 
 #### 安装教程
 
-1. 运行环境：Centos7、Apache、MySQL8、PHP7（LAMP）
+1. 运行环境：Centos7、Apache、MySQL8、PHP8（LAMP）
 1. 数据库：sql.php里有完整的建库、建表、初始化表的MySQL语句。简而言之，有sqlxy库和envxy库，前者是本网站的系统库，包含student表、teacher表、type表、exercise表和answer表，分别存储学生账号、教师账号、题目分类、练习题和学生答案；后者是运行学生针对练习题所做的答案的库，在envxy库里系统将为学生创建专属的答题表并在该表中运行学生的答案，实现评判正误的功能。
 
 #### 使用说明
