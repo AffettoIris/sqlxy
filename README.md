@@ -23,13 +23,13 @@
 
 ##### 不足
 
-后期开发由AffettoIris接管，一点框架都没用上，因为不会┭┮﹏┭┮，这导致开发地可慢了，一个有内容的页面，html接近100行，css250起步，js150行起步，php后端150行起步。
+一点框架都没用上，因为不会┭┮﹏┭┮，这导致开发地可慢了，一个有内容的页面，html接近100行，css250起步，js150行起步，php后端150行起步。
 
 项目成品共8629行代码┭┮﹏┭┮。哎，下个项目必须全部用框架，不然我是狗🐶！
 
 ##### 开发经历
 
-1. 2022-06-20至2022-08-03，学习，对于 Front-End Engineer来说是：html5+css3+javascript5;对于*Back-End Engineer*来说是：java+springboot+spring+springmvc+mybatis+jdbc+durid+thymeleaf模板引擎技术。后端我不知道，前端我反正学了720集课，呵~
+1. 2022-06-20至2022-08-03，学习，对于 Front-End Engineer来说是：html5+css3+javascript5;对于*Back-End Engineer*来说是：java+springboot+spring+springmvc+mybatis+jdbc+durid+thymeleaf模板引擎技术。后端我不知道，前端我反正学了720集课，嘿~
 2. 2022-08-04至2022-08-20,开发登录界面的前后端，并成功实现了用户的登录功能。
 3. 2022-09-01至2022-09-15，开发学生答题页面的评判功能，我们针对MySQL最常用的增删查改四大功能，我们规划设计了对应的四种题型，并于九月中旬实现了对查询类题目的评判。
 4. 2022-12-20至2023-01-10，学习了PHP7、AJAX和Git操作。
