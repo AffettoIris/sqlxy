@@ -6,7 +6,7 @@
 // 注意，写的SQL代码要区分操作哪个库。
     $host = '47.115.218.216';
     $username = 'admin';
-    $password = '这是密码，付费观看！'; 
+    $password = 'zhang134679'; 
     $dbname = 'sqlxy';
 //    $aConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 //    $aConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
