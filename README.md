@@ -14,22 +14,22 @@
 
 ##### 技术栈
 
-前端：html5 css3 es5
-后端：php7
+前端：html5 css3 es6
+后端：php8
 数据传输：ajax json
-服务器：centos7 apache 
+服务器：centos7.6 apache 
 数据库：mysql8
 仓库：git+github
 
 ##### 不足
 
-后期开发由AffettoIris接管，一点框架都没用上，因为不会┭┮﹏┭┮，这导致开发地可慢了，一个有内容的页面，html接近100行，css250起步，js150行起步，php后端150行起步。
+一点框架都没用上，因为不会┭┮﹏┭┮，这导致开发地可慢了，一个有内容的页面，html接近100行，css250起步，js150行起步，php后端150行起步。
 
 项目成品共8629行代码┭┮﹏┭┮。哎，下个项目必须全部用框架，不然我是狗🐶！
 
 ##### 开发经历
 
-1. 2022-06-20至2022-08-03，学习，对于 Front-End Engineer来说是：html5+css3+javascript5;对于*Back-End Engineer*来说是：java+springboot+spring+springmvc+mybatis+jdbc+durid+thymeleaf模板引擎技术。后端我不知道，前端我反正学了720集课，呵~
+1. 2022-06-20至2022-08-03，学习，对于 Front-End Engineer来说是：html5+css3+javascript5;对于*Back-End Engineer*来说是：java+springboot+spring+springmvc+mybatis+jdbc+durid+thymeleaf模板引擎技术。后端我不知道，前端我反正学了720集课，嘿~
 2. 2022-08-04至2022-08-20,开发登录界面的前后端，并成功实现了用户的登录功能。
 3. 2022-09-01至2022-09-15，开发学生答题页面的评判功能，我们针对MySQL最常用的增删查改四大功能，我们规划设计了对应的四种题型，并于九月中旬实现了对查询类题目的评判。
 4. 2022-12-20至2023-01-10，学习了PHP7、AJAX和Git操作。
@@ -48,7 +48,7 @@
 
 #### 安装教程
 
-1. 运行环境：Centos7、Apache、MySQL8、PHP7（LAMP）
+1. 运行环境：Centos7、Apache、MySQL8、PHP8（LAMP）
 1. 数据库：sql.php里有完整的建库、建表、初始化表的MySQL语句。简而言之，有sqlxy库和envxy库，前者是本网站的系统库，包含student表、teacher表、type表、exercise表和answer表，分别存储学生账号、教师账号、题目分类、练习题和学生答案；后者是运行学生针对练习题所做的答案的库，在envxy库里系统将为学生创建专属的答题表并在该表中运行学生的答案，实现评判正误的功能。
 
 #### 使用说明
