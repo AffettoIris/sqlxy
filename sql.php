@@ -1,6 +1,6 @@
 <?php
     try {
-        include '../static/common/php/adminConn.php';
+        include './static/common/php/adminConn.php';
         $aConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         $aConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -81,6 +81,17 @@
 //        $aConn->exec($sql);
 //        echo '建表answer成功';
 
+//        $sql =<<<EOL
+//CREATE TABLE `discuss` (
+//        `id` int NOT NULL AUTO_INCREMENT COMMENT '自增主键',
+//        `name` varchar(40) not null COMMENT '学生姓名',
+//        `content`     varchar(255) DEFAULT NULL COMMENT '内容',
+//        `create_time` datetime     DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+//        PRIMARY KEY (`id`))
+//EOL;
+//        $aConn->exec($sql);
+//        echo '建表discuss成功';
+
 //        修改表结构
 //        $sql = "alter table Teacher drop number";
 //        $aConn->exec($sql);
@@ -102,6 +113,7 @@
 //        $sql = "grant all on sqlxy.`student` to student;";
 //        $sql = "grant all on sqlxy.`answer` to student;";
 //        $sql = "grant all on sqlxy.`exercise` to student;";
+//        $sql = "grant all on sqlxy.`discuss` to student;";
     } catch (PDOException $e) {
         echo $e->getMessage();
     }
