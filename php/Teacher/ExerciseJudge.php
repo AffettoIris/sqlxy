@@ -1,5 +1,7 @@
 <?php
     session_start();
+    $operation = $_POST['operation'] ?? '';
+    $id = $_POST['id'] ?? '';
     $title = $_POST['title'] ?? null;
     $description = $_POST['description'] ?? null;
     $keyword = $_POST['keyword'] ?? null;
@@ -181,5 +183,24 @@
         }
     }
 
+//  接收到前端发来的operation=statistics就返回该题的已答题中的满分人数占总答题人数
+    if (!empty($id) && $operation === 'statistics') {
+        try {
+            include '../../static/common/php/teaConn.php';
+            $tConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+            $tConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql1 = <<<EOL
+            select count(`id`) from sqlxy.`answer` where `score` = 0 and `exerciseid` = '$id';
+EOL;
+            $sql2 = <<<EOL
+            select count(`id`) from sqlxy.`answer` where `exerciseid` = '$id';
+EOL;
+            $result1 = $tConn->query($sql1)->fetch()[0];
+            $result2 = $tConn->query($sql2)->fetch()[0];
+            echo json_encode(['full'=>intval($result2) - intval($result1), 'zero'=>intval($result1)]);
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
     $tConn = null;
 ?>

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../static/common/Student/header.css">
     <link rel="stylesheet" href="../../css/Teacher/ExerciseCenter.css">
     <script src="../../static/libraries/EventListene.js"></script>
+    <script src="../../static/common/js/echarts.min.js"></script>
     <script src="../../js/Teacher/ExerciseCenter.js"></script>
 </head>
 <body>
@@ -98,6 +99,8 @@
         </div>
     </div>
 </div>
+<div class="statistics"></div>
+<div class="x">X</div>
 <?php
     include('../../static/common/php/footer.html');
 ?>

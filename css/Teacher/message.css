@@ -1,0 +1,8 @@
+.type {
+    width: 700px;
+    height: 500px;
+    background-color: yellowgreen;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+}
