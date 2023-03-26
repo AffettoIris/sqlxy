@@ -40,7 +40,6 @@
 ##### 系统功能模块图
 
 （建议开加速器，不然网速慢导致无法展示效果图）
-<img src="./static/img/1.jpg" alt="image-20230204024310726" style="zoom: 67%;" />
 <img src="./static/img/README.md/1.png" alt="image-20230204024310726" style="zoom: 67%;" />
 
 ##### 系统的层次方框图
